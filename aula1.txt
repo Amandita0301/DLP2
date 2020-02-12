@@ -1,0 +1,69 @@
+*LUT: tabela verdade
+
+*fpga é um componente burro, que é apenas usado.
+ocorre a gravaçãode um firmware na fpga, quem faz isso é o quartus ou outra ferramenta
+
+**em uso hj:
+
+ *gate array asic: tecnologia que usa máscaras, fica pronto rápido
+
+ *standatr cell asic: mais usado no mercado, garante que células pré definidas   vão funcionar, 
+
+ *full custom asic: é quando se desenha cada transistor, não tem células pré definidas
+
+**desuso:
+
+  *simple field programmable logic device
+  *ssvmsi(7401)
+
+***trabalha-se pouco com asic no brasil
+
+********************complexity Management*************
+
+Abstraction:
+
+não preocupar-se com problemas fora da nossa alçada
+
+Discpline:
+
+ manter a discussão de acordo com o ponto que o projeto esta
+
+hierarchy:
+
+ separar um grande módulo em pequenos módulos, como se fossem classes
+
+modularity:
+
+ definir bem as interfaces, verificar o necessário e comolar apenas isso
+
+regularity:
+
+ cuidado para manter o projeto regular, boa implememtação,não quebrar o programa
+
+*********************why digital*****************
+
+mais fácil tratar dados
+retransmissão mais fácil
+correção de erro com crc
+
+lei de moore facilitou muito o mundo com os bits
+
+******************system representation*****************
+
+
+(if else) é comportamental (behavioral)
+
+mux é a visão estrutural(visão interna)
+
+*****************synthesis*******************
+
+compilação completa, além de verificar que tá tudo ok, manda para placa
+
+
+
+
+
+
+
+
+

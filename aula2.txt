@@ -1,0 +1,57 @@
+ler capítulo 6
+
+core: lugar que otimiza os algoritmos
+shell: interface bonitinha
+
+computability -> computável:
+
+saber se existe um algoritmo para resolver o problema, ser ou não ser computável. Se travar o computador não é computável.
+
+computation complexity:
+
+quanto o programa consegue ser fast e bom
+2^n, onde n é a quantidade de entradas
+
+pode ser computável, mas se demorar tempo demais chamamos de intratáveis
+
+theorical limitation:
+
+o software de síntese não consegue obter soluções otimas
+
+Usar bibliotecas padrão como  a numeric, deixa que eu use meu código independente da ferramenta, posso ir do quartus para xilinx
+
+OPerators:
+
+Trabalhar com constantes diminui a quantidade de hardware
+
+NO chip planner:
+
+a intensidade da cor azul indica a taxa de ocupação.
+
+alt l abre o Region name
+
+
+Calcular o maior caminho crítico:
+
+Da entrada até a saída
+
+report_path -from {a* b*} -to y* -npaths 20 -panel_name {Report Path}
+
+
+Do diff e add até o fim:
+
+report_path -from {Add*|data* Add*|cin* diff*} -to {Add*|co*} -npaths 20 -panel_name {Report Path}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
